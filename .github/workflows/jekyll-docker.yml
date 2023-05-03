@@ -12,15 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Node PostCSS
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-          # Install PostCSS plugins (from your package.json)
-          - run: npm install
-      - name: Build the site in the jekyll/builder container
-        run: |
+    - uses: actions/checkout@v3
+    - name: Install Dependencies
+      run: npm install
+    - name: Build the site in the jekyll/builder container
+      run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
