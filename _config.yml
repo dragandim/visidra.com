@@ -26,4 +26,4 @@ exclude:
   - .jekyll-cache/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
+#  - node_modules/
