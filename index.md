@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Freelance Consulting and Software development"
 ---
 
 ## You're ready to go!
