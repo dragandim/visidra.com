@@ -1,6 +1,6 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Visidra" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-postcss
@@ -19,8 +19,11 @@ postcss:
 
 #include: ["node_modules/tailwindcss"]
 
-# exclude:
-#   - .jekyll-cache/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
+exclude:
+  - .git
+  - .github
+  - .gitignore
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
