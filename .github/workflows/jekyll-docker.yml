@@ -16,9 +16,18 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
-      - uses: helaili/jekyll-action@v2
+      - name: Build site
+        uses: limjh16/jekyll-action-ts@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          enable_cache: true
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+      # - uses: helaili/jekyll-action@v
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
 
 # jobs:
 #   build:
