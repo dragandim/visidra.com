@@ -2,22 +2,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Visidra" # the name of your site, e.g. ACME Corp.
 
+# Google Analytics
+google-analytics: G-ZGVETCG6PX
+
 plugins:
   - jekyll-postcss
 
 postcss:
   cache: false
-
-# sass:
-#   sass_dir: _sass
-#   style: compressed
-
-# sass:
-#   load_paths:
-#     - _sass
-#     - node_modules
-
-#include: ["node_modules/tailwindcss"]
 
 exclude:
   - .git
@@ -26,4 +18,4 @@ exclude:
   - .jekyll-cache/
   - Gemfile
   - Gemfile.lock
-#  - node_modules/
+  - node_modules/

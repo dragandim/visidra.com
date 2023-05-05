@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
         <title>{{ page.title }} - {{ site.title }}</title>
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+        {% include meta.html %}
     </head>
     <body class="bg-gradient-to-r from-sky-200 to-indigo-200 font-sans">
         <div class="m-16 flex justify-center items-center bg-blue-100" role="main">
@@ -22,7 +21,6 @@
                         <li>Cloud Development </li>
                         <li>Consulting</li>
                     </ul>
-                <!-- Software development has never been so easy, yet a lot of companies today who struggle finding IT - Professionals. -->
                 </p>
                 <div class="mt-4 flex">
                     <p class="text-xl ml-2 font-medium rounded-md text-slate-500" href="#">Please contact dragan@visidra.com</p>
