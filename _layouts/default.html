@@ -5,36 +5,63 @@
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
         {% include meta.html %}
     </head>
-    <body class="bg-gradient-to-r from-sky-200 to-indigo-200 font-sans">
-        <div class="m-16 flex justify-center items-center bg-blue-100" role="main">
-            <div class="px-16 border-slate-800 rounded-md">
-                <h1
-                    class="mt-6 text-4xl font-headline tracking-tight font-extrabold text-gray-800 leading-snug"
-                    role="heading"
-                    aria-level="1"
-                >We got the software development skills... <br />
-                    <span class="text-5xl text-cyan-500" role="heading" aria-level="1">And we would like to deliver them to your business.</span>
-                </h1>
-                <p class="w-3/5 mt-4 text-gray-600 text-lg" aria-level="2">
-                    <ul class="list-inside list-disc text-lg ml-4">
-                        <li>Application Development</li>
-                        <li>Cloud Development </li>
-                        <li>Consulting</li>
-                    </ul>
-                </p>
-                <div class="mt-4 flex">
-                    <p class="text-xl ml-2 font-medium rounded-md text-slate-500" href="#">Please contact dragan@visidra.com</p>
+
+    <body class="bg-gradient-to-t from-sky-500 to-indigo-900">
+
+        <nav class="flex 
+                    flex-col
+                    justify-center
+                    items-center
+                    sticky
+                    top-0
+                    z-50
+                    h-16
+                    border-1
+                    border-slate-500
+                    bg-white
+                    ">
+
+                <div class="w-screen max-w-4xl flex justify-between items-center">
+                    <a href="/" > <span class="m-2 font-medium text-indigo-900 text-2xl"> Visidra</span></a>
                 </div>
+
+        </nav>
+
+        <div class="flex justify-center h-screen" role="main">
+
+            <div class="w-screen max-w-4xl">
+
+                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
+
+                <div class="p-4 border-0 border-white">
+
+                    <h1
+                        class="pb-2 xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl font-headline tracking-tight font-bold text-white leading-snug"
+                        role="heading"
+                        aria-level="1"
+                    >Are you in search of a talented and reliable software freelancer to bring your digital dreams to life?</h1>
+                
+                    <h1>
+                        <span class="lg:text-5xl lg:text-4xl 
+                                     md:text-3xl sm:text-lgl font-headline 
+                                     font-extrabold text-cyan-500" role="heading" aria-level="1">Look no further!</span>
+                    </h1>
+                </div>
+
+                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
+
+                {% include banner.html %}
+
+                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
+
+                {% include profile.html %}
+
+                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
+                
             </div>
-            <div class="m-20" role="img">
-                <img
-                    class="object-cover object-center w-96 rounded-md hover:shadow-lg transform"
-                    src="https://images.unsplash.com/photo-1531209543467-b496dcb567fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80"
-                    
-                    alt="Waterfall"
-                />
-            </div>
+
         </div>
+
     </body>
 
 
