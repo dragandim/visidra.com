@@ -27,7 +27,7 @@
             
         </nav>
 
-        <div class="flex justify-center h-screen" role="main">
+        <div class="flex justify-center h-screen overflow-auto" role="main">
 
             <div class="w-screen max-w-6xl border-0 border-white">
 
@@ -43,7 +43,7 @@
                 
                     <h1>
                         <span class="lg:text-5xl lg:text-4xl 
-                                     md:text-3xl sm:text-lgl font-headline 
+                                     md:text-3xl sm:text-lg font-headline 
                                      font-extrabold text-cyan-500" role="heading" aria-level="1">Look no further!</span>
                     </h1>
                 </div>
@@ -57,6 +57,8 @@
                 {% include profile.html %}
 
                 <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
+
+                {% include techstack.html %}
                 
             </div>
 
