@@ -1,0 +1,48 @@
+- name: AWS
+  image: https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg
+  description: At Some level this skill
+  level: 50
+- name: Nodejs
+  image: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
+  description: Some Skill descipriton
+  level: 90
+- name: JavaScript
+  image: https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg
+  description: At Some level this skill
+  level: 90
+- name: Typescript
+  image: https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg
+  description: At Some level this skill
+  level: 80
+- name: Linux
+  image: https://upload.wikimedia.org/wikipedia/commons/b/b0/NewTux.svg
+  description: At Some level this skill
+  level: 80
+- name: MySQL
+  image: https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg
+  description: At Some level this skill
+  level: 80
+- name: Postgres
+  image: https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg
+  description: At Some level this skill
+  level: 80
+- name: PHP
+  image: https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg
+  description: At Some level this skill
+  level: 70
+- name: Python
+  image: https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
+  description: At Some level this skill
+  level: 60
+- name: HTML5
+  image: https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg
+  description: At Some level this skill
+  level: 70
+- name: CSS3
+  image: https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg
+  description: At Some level this skill
+  level: 70
+- name: Git
+  image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
+  description: Some Skill descipriton
+  level: 80

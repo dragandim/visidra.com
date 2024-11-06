@@ -1,0 +1,12 @@
+<div class="border-1 border-white p-4">
+
+    <div class="grid grid-cols-3 gap-4 auto-cols-max place-items-center">
+
+{% for framework in site.data.cloud-frameworks %}
+        <div class="w-20  bg-slate-700 place-items-center">
+            <p class="text-white"> {{framework.name}} </p>
+        </div>
+{% endfor %}
+
+    </div>
+</div>

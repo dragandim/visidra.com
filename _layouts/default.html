@@ -1,32 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-    <head>
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-        {% include meta.html %}
-    </head>
 
-    <body class="bg-gradient-to-t from-sky-500 from-10% to-indigo-900 font-sans">
+    {% include head.html %}
+    <body class="bg-gradient-to-bl from-sky-500 from-10% to-indigo-900 to-90% font-sans">
 
-        <nav class="flex 
-                    flex-col
-                    justify-center
-                    items-center
-                    sticky
-                    top-0
-                    z-50
-                    h-16
-                    border-9
-                    border-slate-500
-                    bg-white
-                    ">
-
-            <div class="flex w-screen max-w-6xl justify-between items-center">
-                <a href="/" > <span class="m-2 font-medium text-indigo-900 text-2xl"> Visidra</span></a>
-            </div>
-            
-        </nav>
-
+        {% include navbar.html %}
         <div class="flex justify-center h-screen overflow-auto" role="main">
 
             <div class="w-screen max-w-6xl border-0 border-white">
@@ -36,30 +14,31 @@
                 <div class="p-4 border-0 border-white">
 
                     <h1
-                        class="pb-2 xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl font-headline tracking-tight font-bold text-white leading-snug"
+                        class="p-6 xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl font-headline tracking-tight font-bold text-white leading-snug"
                         role="heading"
                         aria-level="1"
                     >Are you in search of a talented and reliable software freelancer to bring your digital dreams to life?</h1>
                 
                     <h1>
-                        <span class="lg:text-5xl lg:text-4xl 
+                        <span class="p-6 lg:text-5xl lg:text-4xl 
                                      md:text-3xl sm:text-lg font-headline 
                                      font-extrabold text-cyan-500" role="heading" aria-level="1">Look no further!</span>
                     </h1>
                 </div>
-
-                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
-
+    
                 {% include banner.html %}
 
-                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
 
                 {% include profile.html %}
+                
 
                 <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
+                {% include skills.html %}
 
-                {% include techstack.html %}
-                
+                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
+                {% include cloud-frameworks.html %}
+
+                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>                
             </div>
 
         </div>

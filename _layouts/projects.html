@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  {% include head.html %}
+  <body class="bg-gradient-to-bl from-sky-500 from-10% to-indigo-900 to-90% font-sans">
+    
+    {% include navbar.html %}
+    <div class="flex justify-center h-screen overflow-auto" role="main">
+      
+        <div class="w-screen max-w-6xl text-white">
+          {% assign projects = site.posts | where_exp: "item", "item.tags contains 'project'" %}
+        {% for project in projects %}
+            <div class="p-4 border-2 border-white">
+                <h2> {{project.title}} </h2>
+                <p> {{project.content}} </p>
+            </div>
+        {% endfor %}        
+
+
+      </div>
+      
+    </div>
+    
+  </body>
+  
+
+</html>
