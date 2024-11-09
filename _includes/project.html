@@ -1,0 +1,39 @@
+<article class="prose m-4">
+    <h2> {{project.title}} </h2>
+    <p>  {{project.content}} </p>
+</article>
+
+<h3 class="text-black ml-4"> Techstack </h3>
+<div class="flex justify-start ml-4">
+
+    <div class="p-2 h-10 w-10 border-2 border-slate-100 rounded-md">
+        <a href="https://angular.dev/">
+            <img class="object-center" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"> 
+        </a>
+    </div>
+
+    <div class="p-2 h-10 w-10 border-2 border-slate-100 rounded-md">
+        <a href="https://nodejs.org/">
+            <img class="object-center" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
+        </a>
+    </div>
+
+    <div class="p-2 h-10 w-10 border-2 border-slate-100 rounded-md">
+        <a href="https://www.serverless.com/">
+            <img class="object-center" src="https://www.vectorlogo.zone/logos/serverless/serverless-icon.svg">
+        </a>
+    </div>
+
+    <div class="p-2 h-10 w-10 border-2 border-slate-100 rounded-md">
+        <a href="https://aws.amazon.com/">
+            <img class="object-center" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg">
+        </a>
+    </div>
+
+</div>
+
+<div class="ml-4">
+   {% for aws in project.aws %}
+    <div class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-800 ring-1 ring-inset ring-yellow-600/20">{{ aws }}</div>
+   {% endfor %}
+</div>

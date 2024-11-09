@@ -1,10 +1,10 @@
 - name: Serverless
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: CDK	
+- name: CDK
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: SAM	
+- name: AWS SAM
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: React
@@ -12,8 +12,8 @@
   level: 70
 - name: Angular
   level: 80
-  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: Angular Material	
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg
+- name: Angular Material
   level: 70
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Ionic

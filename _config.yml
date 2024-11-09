@@ -2,6 +2,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Visidra" # the name of your site, e.g. ACME Corp.
 
+livereload: true
 # Google Analytics
 google-analytics: G-ZGVETCG6PX
 
