@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  {% include head.html %}
+  <body class="bg-gradient-to-bl from-sky-500 from-10% to-indigo-900 to-90% font-sans">
+    
+    {% include navbar.html %}
+    <div class="flex justify-center h-screen overflow-auto" role="main">
+        <div class="w-screen max-w-6xl">
+            <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4"></div>
+            <div class="p-2 border-1 border-white">
+                <h2 class="p-6 text-4xl font-headline tracking-tight font-bold text-white">Skills</h2>
+            </div>
+            <div class="p-6 border-2 rounded-lg bg-white mb-4">
+            {% for skill in site.data.skills %}
+                {% include skill.html skill=skill %}
+            {% endfor %}        
+
+            {% include cloud-frameworks.html %}
+
+            </div>
+
+        </div>
+      
+    </div>
+    
+  </body>
+  
+
+</html>

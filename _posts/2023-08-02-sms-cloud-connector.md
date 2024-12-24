@@ -2,7 +2,7 @@
 title: SMS Cloud Connector
 layout: project
 image: "/assets/images/airship-uss-macon.jpeg"
-description: Airship Eloqua Integration Project
+description: SMS Cloud Connector for Eloqua
 tags:
 - project
 - eloqua
@@ -21,7 +21,7 @@ aws:
 ---
 
 Since Eloqua is primarily focused on email marketing and campaign management, SMS messaages are not included as a core, native feature.
-To address this, my client and I developed a custom Eloqua application that integrates with three major SMS service providers:
+To address this, I developed for a client, a custom Eloqua application that integrates with three major SMS service providers:
 
 * [Inmobile](https://www.inmobile.com/)
 * [SMSDK](https://sms.dk/)

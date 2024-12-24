@@ -1,48 +1,48 @@
 - name: AWS
-  image: https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg
+  image: /assets/images/aws-svgrepo-com.svg
   description: At Some level this skill
-  level: 50
+  level: 90
 - name: Nodejs
-  image: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
+  image: /assets/images/nodejs-svgrepo-com.svg
   description: Some Skill descipriton
   level: 90
 - name: JavaScript
-  image: https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg
+  image: /assets/images/javascript-svgrepo-com.svg
   description: At Some level this skill
   level: 90
 - name: Typescript
-  image: https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg
+  image: /assets/images/typescript-svgrepo-com.svg
   description: At Some level this skill
   level: 80
 - name: Linux
-  image: https://upload.wikimedia.org/wikipedia/commons/b/b0/NewTux.svg
+  image: /assets/images/linux-tux-svgrepo-com.svg
   description: At Some level this skill
-  level: 80
+  level: 90
 - name: MySQL
-  image: https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg
+  image: /assets/images/mysql-logo-svgrepo-com.svg
   description: At Some level this skill
   level: 80
 - name: Postgres
-  image: https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg
+  image: /assets/images/postgresql-svgrepo-com.svg
   description: At Some level this skill
-  level: 80
+  level: 70
 - name: PHP
-  image: https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg
+  image: /assets/images/php-svgrepo-com.svg
   description: At Some level this skill
   level: 70
 - name: Python
-  image: https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
+  image: /assets/images/python-svgrepo-com.svg
   description: At Some level this skill
   level: 60
 - name: HTML5
-  image: https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg
+  image: /assets/images/html-5-svgrepo-com.svg
   description: At Some level this skill
   level: 70
 - name: CSS3
-  image: https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg
+  image: /assets/images/css-svgrepo-com.svg
   description: At Some level this skill
-  level: 70
+  level: 60
 - name: Git
-  image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
+  image: /assets/images/git-svgrepo-com.svg
   description: Some Skill descipriton
   level: 80

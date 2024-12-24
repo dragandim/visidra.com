@@ -9,7 +9,7 @@
         <div class="w-screen max-w-6xl text-white">
             <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4"></div>
             <div class="p-2 border-0 border-white">
-                <h2 class="p-6 text-4xl font-headline tracking-tight font-bold text-white">Recent projects</h2>
+                <h2 class="p-6 text-4xl font-headline tracking-tight font-bold text-white">Projects</h2>
             </div>
 
           {% assign projects = site.posts | where_exp: "item", "item.tags contains 'project'" %}
