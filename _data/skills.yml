@@ -22,7 +22,7 @@
   image: /assets/images/mysql-logo-svgrepo-com.svg
   description: At Some level this skill
   level: 80
-- name: Postgres
+- name: PostgreSQL
   image: /assets/images/postgresql-svgrepo-com.svg
   description: At Some level this skill
   level: 70
