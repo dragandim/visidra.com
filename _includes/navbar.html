@@ -1,4 +1,4 @@
-<nav class="flex 
+<nav class="flex
             flex-col
             justify-center
             items-center
@@ -7,14 +7,16 @@
             z-50
             h-12
             border
-            bg-indigo-950
+            bg-indigo-900
             border-indigo-950/75
+            p-2 h-[60px]
             ">
 
-    <div class="flex w-screen max-w-6xl items-center justify-center">
-        <a href="/" > <span class="p-2 m-2 font-medium text-indigo-100 text-lg {% if page.layout == 'default' %}underline{% endif %}""> Home </span></a>
-            <a href="/projects" > <span class="p-2 m-2 font-medium text-indigo-100 text-lg {% if page.layout == 'projects' or page.layout == 'project' %}underline{% endif %}"> Projects </span></a>
-            <a href="/skills" > <span class="p-2 m-2 font-medium text-indigo-100 text-lg {% if page.layout == 'skills' or page.layout == 'skill' %}underline{% endif %}"> Skills </span></a>
+    <div class="flex w-full items-center justify-between">
+        <div class="p-2 m-2" > <a href="/" ><img class="h-[30px] {% if page.layout == 'default' %} animate-pulse {% endif %}" src="/assets/images/home-2.svg" /> </a> </div>
+        <div class="">
+            <a href="/skills" > <span class="p-2 m-2 font-medium text-slate-100 text-lg {% if page.title == 'Skills' %}underline{% endif %}">Skills</span></a>
+            <a href="/projects" > <span class="p-2 m-2 font-medium text-slate-100 text-lg {% if page.title == 'Projects' %}underline{% endif %}">Projects</span></a>
+        </div>
     </div>
-    
 </nav>

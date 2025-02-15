@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  {% include head.html %}
+  <body class="bg-gradient-to-bl from-sky-500 from-10% to-indigo-900 to-90% font-sans">
+    
+    {% include navbar.html %}
+    <div class="flex justify-center h-screen overflow-auto" role="main">
+        <div class="w-screen max-w-6xl text-white">
+            <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4"></div>
+            {{content}}
+      </div>
+      
+    </div>
+    
+  </body>
+  
+
+</html>
