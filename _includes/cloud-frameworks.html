@@ -1,10 +1,17 @@
 <div class="border-1 border-white py-4">
     <h6 class="text-xl font-headline font-bold my-4"> Continuous Integration & Deployment</h6>
     <div class="grid grid-cols-3 gap-2 auto-cols-max place-items-center">
-    {% for framework in site.data.cloud-frameworks %}
-        <div class="w-full bg-indigo-500 h-100 p-20 border border-blue-400/75 rounded-lg place-items-center opacity-50 bg-transparent">
+
+            {% for framework in site.data.cloud-frameworks %}
+
+        <div class="w-full bg-indigo-300 p-10 border border-blue-400/75 rounded-lg place-items-center">
             <p class="text-white text-xs 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-sm"> {{framework.name}} </p>
+
+            <div class="w-full bg-gray-300 rounded-full h-2 dark:bg-gray-300">
+                <div class="bg-gradient-to-l from-sky-500  h-2 rounded-full dark:bg-blue-600" style="width: {{framework.level}}%"></div>
+            </div>
         </div>
-    {% endfor %}
+            {% endfor %}
+
     </div>
 </div>

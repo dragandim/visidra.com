@@ -21,7 +21,7 @@ aws:
 ---
 
 Since Eloqua is primarily focused on email marketing and campaign management, SMS messaages are not included as a core, native feature.
-To address this, I developed for my client, a custom Eloqua application that integrates with three major SMS service providers:
+To address this, my client and I developed a custom Eloqua application that integrates with three major SMS service providers:
 
 * [Inmobile](https://www.inmobile.com/)
 * [SMSDK](https://sms.dk/)
