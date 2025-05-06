@@ -5,18 +5,16 @@
     <body class="bg-gradient-to-bl from-sky-500 from-10% to-indigo-900 to-90% font-sans">
 
         {% include navbar.html %}
+        {% include current-project.html %}
         <div class="flex justify-center h-screen overflow-auto" role="main">
 
             <div class="w-screen max-w-6xl border-0 border-white">
 
-                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4"></div>
                 {% include hero.html %}
-
-                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4"></div>    
-                {% include banner.html %}
+                <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4"></div>
 
                 {% include profile.html %}
-
+                {% include banner.html %}
                 <div class="p-2 p-6 xl:p-6 lg:p-6 md:p-6 sm:p-4 border-0 border-white"></div>
             </div>
 
