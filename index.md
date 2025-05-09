@@ -1,4 +1,4 @@
 ---
 layout: default
-title: "Freelance Consulting and Software development"
+title: "Visidra - Software Development"
 ---
